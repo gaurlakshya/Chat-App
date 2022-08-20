@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
         };
 
     }
-
+    //if user is already present in our database then we donot need to sent the OTP.
     @Override
     protected void onStart() {
         super.onStart();
